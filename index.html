@@ -1,96 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!--
+
+<head>
+  <!--
       Note for dev :
       Use id to change & apply css, example <h2 id="h2-about">Hello world"</h2>
       In CSS use #id_name, example #h2-about
     -->
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Web Information-->
-    <meta name="description" content="Meeker is a website designer & developer agency" />
-    <meta name="author" content="Kelompok 2" />
+  <!-- Web Information-->
+  <meta name="description" content="Meeker is a website designer & developer agency" />
+  <meta name="author" content="Kelompok 2" />
 
-    <!--Favicon on tab-->
-    <link rel=icon href="assets/img/favicon.ico"> 
-    <link rel=icon type=image/png sizes=16x16 href="assets/img/favicon-16x16.png"> 
-    <link rel=icon type=image/png sizes=32x32 href="assets/img/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <!--Favicon on tab-->
+  <link rel=icon href="assets/img/favicon.ico">
+  <link rel=icon type=image/png sizes=16x16 href="assets/img/favicon-16x16.png">
+  <link rel=icon type=image/png sizes=32x32 href="assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
 
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!--Custom CSS-->
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Meeker.</title>
-    
-  </head>
-  <body>
-    <!--Nav Bar-->
-    <div class="container mt-5 align-items-center">
-        <a class="navbar-brand" href="#">
-            <img src="/assets/img/Meeker.svg" width="150" alt="Logo" />
-          </a>
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="navbar">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Product</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-              </ul>
-            </div>
-          </nav>      
-    </div>
-    
-    <section class="mt-4">
-        <div class="jumbotron jumbotron-fluid bg-transparent">
-            <div class="container" id="hero">
-              <div class="row">
-                <div class="col-md">
-                    <h1 class="display-4">Power your business with beautiful website</h1>
-                    <p class="lead">We make website for you with our exprienced teams of designer and developer.</p>
-                </div>
-                <div class="col-md">
-                    <h1 class="display-4">Power your business with beautiful website</h1>
-                    <p class="lead">We make website for you with our exprienced teams of designer and developer.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-    </section>  
+  <title>Meeker.</title>
 
-    <div class="container">
-      <div>
-        
+</head>
+
+<body>
+  <!--Nav Bar-->
+  <div class="container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent p-0" id="navbar">
+      <a class="navbar-brand mr-auto" href="#">
+        <img src="assets/img/Meeker.svg" width="150" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </div>
+
+  <section class="mt-5">
+    <div class="jumbotron jumbotron-fluid bg-transparent">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <h1 class="display-4" style="font-weight: 700;">Power your business with beautiful website</h1>
+            <p class="lead">We make website for you with our exprienced teams of designer and developer.</p>
+          </div>
+          <div class="col-md text-center">
+            <img class="img-fluid" src="assets/img/M.svg" height="280px" style="padding: auto;" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div>
+
+    </div>
 
     <!--Bootstrap JS & jQuery-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
