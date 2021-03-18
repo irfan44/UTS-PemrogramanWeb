@@ -20,15 +20,31 @@
   <!--Bootstrap CSS-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <!--Custom CSS-->
   <link rel="stylesheet" href="assets/css/style.css" />
+
+
+  <!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+  <!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+
+  <link href="assets/js/aos/aos.css" rel="stylesheet">
+  <script src="assets/js/aos/aos.js"></script>
+
+  
 
   <title>Meeker. - We make website for you</title>
 
 </head>
 
 <body>
+    <script>
+        AOS.init();
+      </script>
 
   <!--Nav Bar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-transparent mx-md-4 fixed-top" id="navbar">
@@ -63,7 +79,7 @@
 
 
   <!--Hero-->
-  <section class="pt-5 mt-5 pb-1">
+  <section class="pt-5 mt-5 pb-1" data-aos="fade-up">
     <div class="jumbotron jumbotron-fluid bg-transparent">
       <div class="container">
         <div class="row">
@@ -80,13 +96,15 @@
   </section>
 
   <!--Offerings-->
-  <section style=" padding: 150px 0 200px 0">
-    <div class="container">
+  <section style="padding: 80px 0 200px 0" data-aos="fade-up" >
+    <div class="container" >
       <div class="row">
-        <div class="col-md">
+        <div class="col-md my-auto" >
+        
           <p style="font-weight: 700; font-size: 26px">
             We create the best
           </p>
+        
         </div>
         <div class="col-md">
             <div class="accordion" id="accordionExample">
@@ -94,7 +112,7 @@
                   <div class="card-header" id="headingOne" style="background-color: #fff; border: none;">
                     <h2 class="mb-0" >
                       <button class="btn p-0" type="button" data-toggle="collapse" data-target="#webDesign" aria-expanded="true" aria-controls="collapseOne" style="font-size: 30px; border: none; background-color: transparent">
-                        Web Design &#8964;
+                        Web Design <i class="im im-angle-down" style="font-size: 20px"></i>
                       </button>
                     </h2>
                   </div>
@@ -108,7 +126,7 @@
                     <div class="card-header" id="headingOne" style="background-color: #fff; border: none;">
                       <h2 class="mb-0">
                         <button class="btn p-0" type="button" data-toggle="collapse" data-target="#mobileApp" aria-expanded="true" aria-controls="collapseOne" style="font-size: 30px; border: none; background-color: transparent">
-                          Mobile App &#8964;
+                          Mobile App <i class="im im-angle-down" style="font-size: 20px"></i>
                         </button>
                       </h2>
                     </div>
@@ -122,7 +140,35 @@
                       <div class="card-header" id="headingOne" style="background-color: #fff; border: none;">
                         <h2 class="mb-0">
                           <button class="btn p-0" type="button" data-toggle="collapse" data-target="#uiuxDesign" aria-expanded="true" aria-controls="collapseOne" style="font-size: 30px; border: none; background-color: transparent">
-                            UI/UX Design &#8964;
+                            UI/UX Design <i class="im im-angle-down" style="font-size: 20px"></i>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="uiuxDesign" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card" style="border: none" >
+                      <div class="card-header" id="headingOne" style="background-color: #fff; border: none;">
+                        <h2 class="mb-0">
+                          <button class="btn p-0" type="button" data-toggle="collapse" data-target="#uiuxDesign" aria-expanded="true" aria-controls="collapseOne" style="font-size: 30px; border: none; background-color: transparent">
+                            UI/UX Design <i class="im im-angle-down" style="font-size: 20px"></i>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="uiuxDesign" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card" style="border: none" >
+                      <div class="card-header" id="headingOne" style="background-color: #fff; border: none;">
+                        <h2 class="mb-0">
+                          <button class="btn p-0" type="button" data-toggle="collapse" data-target="#uiuxDesign" aria-expanded="true" aria-controls="collapseOne" style="font-size: 30px; border: none; background-color: transparent">
+                            UI/UX Design <i class="im im-angle-down" style="font-size: 20px"></i>
                           </button>
                         </h2>
                       </div>
@@ -138,7 +184,7 @@
 
 
   <!--Projects-->
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="background-color: #15141a;">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="background-color: #15141a;" data-aos="fade-up">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -181,14 +227,14 @@
   <!--Our team-->
   <section id="team" class="team section-bg mt-5">
     <div class="container">
-      <div class="section-title">
+      <div class="section-title" data-aos="fade-up">
         <h2>Our Team</h2>
         <p>xaksdhasdjhsajdkhadskjasd</p>
       </div>
 
       <div class="row">
         <div class="col-md">
-          <div class="member">
+          <div class="member" data-aos="fade-up">
             <div class="pic"><img src="assets/img/apple-touch-icon.png" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>Irfan Nurghiffari</h4>
@@ -207,7 +253,7 @@
         </div>
 
         <div class="col-md">
-          <div class="member">
+          <div class="member" data-aos="fade-up">
             <div class="pic"><img src="assets/img/apple-touch-icon.png" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>Fajar Nashirul Haq</h4>
@@ -230,7 +276,7 @@
 
 
   <!--Contact Us-->
-  <div class="container my-5">
+  <div class="container my-5" data-aos="fade-up">
     <div class="row">
       <div class="col-md my-auto">
         <h1 style="text-align: center"><b>Contact Us</b></h1>
@@ -260,8 +306,8 @@
 
 
   <!--Footer-->
-  <div class="container-fluid p-5" style="background-color: #212129;">
-    <div class="container">
+  <div class="container-fluid p-5 " style="background-color: #212129;">
+    <div class="container ">
       <div class="row" style="color: #ffffff;">
         <div class="col-sm-8 p-2">
           <p>Want to know more?</p>
