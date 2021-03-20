@@ -54,9 +54,9 @@
     <nav
       class="navbar navbar-expand-lg navbar-light bg-transparent mx-md-4 py-2 fixed-top"
       id="navbar"
-      style="max-width: 100%"
+      style="max-width: 100%;"
     >
-      <a class="navbar-brand" href="#" >
+      <a class="navbar-brand" href="#">
         <svg
           id="logo"
           width="128"
@@ -83,7 +83,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto" style="background-color: #fff">
+        <ul class="navbar-nav ml-auto" style="background-color: #fff;">
           <li class="nav-item active">
             <a class="nav-link" href="#"
               >Home <span class="sr-only">(current)</span></a
@@ -105,14 +105,14 @@
     <!--Hero-->
     <section
       data-aos="fade-up"
-      style="margin-top: 48px; margin-bottom: 48px"
+      style="margin-top: 48px; margin-bottom: 48px;"
       id="hero"
     >
       <div class="jumbotron jumbotron-fluid bg-transparent my-5">
         <div class="container">
           <div class="row">
             <div class="col-md my-auto">
-              <h1 class="display-4" style="font-weight: 700" id="tagline">
+              <h1 class="display-4" style="font-weight: 700;" id="tagline">
                 Power your business with beautiful website
               </h1>
               <p class="lead" id="slogan">
@@ -125,7 +125,7 @@
                 class="image-fluid"
                 src="assets/img/design.png"
                 alt=""
-                style="width: 100%; height: auto; max-width: 384px"
+                style="width: 100%; height: auto; max-width: 384px;"
               />
             </div>
           </div>
@@ -134,19 +134,31 @@
     </section>
 
     <!--Offerings-->
-    <section class="my-5 py-5" data-aos="fade-up">
+    <section
+      style="padding-top: 96px; padding-bottom: 96px; background-color: #000;"
+      data-aos="fade-up"
+      id="offering"
+    >
       <div class="container">
         <div class="row">
-          <div class="col-md my-auto">
-            <p id="offeringHeader"style="font-weight: 700; font-size: 24px">We create the best</p>
+          <div class="col-md my-auto text-center">
+            <p id="offeringHeader" style="font-weight: 700; font-size: 24px;">
+              We create the best
+            </p>
+            <img
+              class="image-fluid"
+              src="assets/img/mobileweb.png"
+              alt=""
+              style="width: 100%; height: auto; max-width: 384px;"
+            />
           </div>
           <div class="col-md">
             <div class="accordion" id="accordionExample">
-              <div class="card" style="border: none">
+              <div class="card" style="border: none;">
                 <div
                   class="card-header"
                   id="headingOne"
-                  style="background-color: #fff; border: none"
+                  style="background-color: #15141a; border: none;"
                 >
                   <h2 class="mb-0">
                     <button
@@ -164,7 +176,7 @@
                       "
                     >
                       Web Design
-                      <i class="im im-angle-down" style="font-size: 20px"></i>
+                      <i class="im im-angle-down" style="font-size: 20px;"></i>
                     </button>
                   </h2>
                 </div>
@@ -174,18 +186,18 @@
                   aria-labelledby="headingOne"
                   data-parent="#accordionExample"
                 >
-                  <div class="card-body" style="color: #000">
+                  <div class="card-body" style="color: #000;">
                     Some placeholder content for the first accordion panel. This
                     panel is shown by default, thanks to the
                     <code>.show</code> class.
                   </div>
                 </div>
               </div>
-              <div class="card" style="border: none">
+              <div class="card" style="border: none;">
                 <div
                   class="card-header"
                   id="headingOne"
-                  style="background-color: #fff; border: none"
+                  style="background-color: #15141a; border: none;"
                 >
                   <h2 class="mb-0">
                     <button
@@ -203,7 +215,7 @@
                       "
                     >
                       Mobile App
-                      <i class="im im-angle-down" style="font-size: 20px"></i>
+                      <i class="im im-angle-down" style="font-size: 20px;"></i>
                     </button>
                   </h2>
                 </div>
@@ -220,11 +232,11 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="border: none">
+              <div class="card" style="border: none;">
                 <div
                   class="card-header"
                   id="headingOne"
-                  style="background-color: #fff; border: none"
+                  style="background-color: #15141a; border: none;"
                 >
                   <h2 class="mb-0">
                     <button
@@ -242,7 +254,7 @@
                       "
                     >
                       UI/UX Design
-                      <i class="im im-angle-down" style="font-size: 20px"></i>
+                      <i class="im im-angle-down" style="font-size: 20px;"></i>
                     </button>
                   </h2>
                 </div>
@@ -268,9 +280,13 @@
     <!--Projects-->
     <div
       id="carouselExampleCaptions"
-      class="carousel slide my-5 py-5"
+      class="carousel slide"
       data-ride="carousel"
-      style="background-color: #15141a"
+      style="
+        background-color: #15141a;
+        padding-top: 96px;
+        padding-bottom: 96px;
+      "
       data-aos="fade-up"
     >
       <ol class="carousel-indicators">
@@ -427,7 +443,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md">
+          <div class="col-md my-5">
             <div class="member" data-aos="fade-up">
               <div class="pic">
                 <img
@@ -464,7 +480,7 @@
             </div>
           </div>
 
-          <div class="col-md">
+          <div class="col-md my-5">
             <div class="member" data-aos="fade-up">
               <div class="pic">
                 <img
@@ -508,8 +524,8 @@
     <div class="container my-5 py-5" data-aos="fade-up">
       <div class="row">
         <div class="col-md my-auto">
-          <h1 style="text-align: center"><b>Contact Us</b></h1>
-          <p style="text-align: center">
+          <h1 style="text-align: center;"><b>Contact Us</b></h1>
+          <p style="text-align: center;">
             Please leave your message in the column provided
           </p>
         </div>
@@ -538,7 +554,7 @@
             <button
               type="submit"
               class="btn btn-primary"
-              style="background-color: #000; border-color: #000000"
+              style="background-color: #000; border-color: #000000;"
             >
               Submit
             </button>
@@ -550,21 +566,21 @@
     <!--Footer-->
     <div
       class="container-fluid mt-5 p-5"
-      style="background-color: #212129"
+      style="background-color: #212129;"
       id="footer"
     >
       <div class="container">
-        <div class="row" style="color: #ffffff">
+        <div class="row" style="color: #ffffff;">
           <div class="col-sm-8 p-2">
             <p>Want to know more?</p>
             <p>
-              <a style="margin-right: 10px" href="#"
+              <a style="margin-right: 10px;" href="#"
                 ><svg
                   height="40px"
                   viewBox="0 0 511 511.9"
                   width="40px"
                   xmlns="http://www.w3.org/2000/svg"
-                  style="fill: #ffffff"
+                  style="fill: #ffffff;"
                 >
                   <path
                     d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"
@@ -576,25 +592,25 @@
                     d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"
                   /></svg
               ></a>
-              <a style="margin-right: 10px" href="#"
+              <a style="margin-right: 10px;" href="#"
                 ><svg
                   height="40px"
                   viewBox="-21 -21 682.66669 682.66669"
                   width="40px"
                   xmlns="http://www.w3.org/2000/svg"
-                  style="fill: #ffffff"
+                  style="fill: #ffffff;"
                 >
                   <path
                     d="m604.671875 0h-569.375c-19.496094.0117188-35.30078125 15.824219-35.296875 35.328125v569.375c.0117188 19.496094 15.824219 35.300781 35.328125 35.296875h306.546875v-247.5h-83.125v-96.875h83.125v-71.292969c0-82.675781 50.472656-127.675781 124.222656-127.675781 35.324219 0 65.679688 2.632812 74.527344 3.808594v86.410156h-50.855469c-40.125 0-47.894531 19.066406-47.894531 47.050781v61.699219h95.9375l-12.5 96.875h-83.4375v247.5h162.796875c19.507813.003906 35.324219-15.804688 35.328125-35.3125 0-.003906 0-.007812 0-.015625v-569.375c-.007812-19.496094-15.824219-35.30078125-35.328125-35.296875zm0 0"
                   /></svg
               ></a>
-              <a style="margin-right: 10px" href="#"
+              <a style="margin-right: 10px;" href="#"
                 ><svg
                   height="40px"
                   viewBox="-21 -35 682.66669 682"
                   width="40px"
                   xmlns="http://www.w3.org/2000/svg"
-                  style="fill: #ffffff"
+                  style="fill: #ffffff;"
                 >
                   <path
                     d="m77.613281-.667969c-46.929687 0-77.613281 30.816407-77.613281 71.320313 0 39.609375 29.769531 71.304687 75.8125 71.304687h.890625c47.847656 0 77.625-31.695312 77.625-71.304687-.894531-40.503906-29.777344-71.320313-76.714844-71.320313zm0 0"
@@ -615,7 +631,7 @@
             <p>We make website for you</p>
           </div>
         </div>
-        <div class="row mt-4" style="color: #ffffff">
+        <div class="row mt-4" style="color: #ffffff;">
           <div class="col-sm-8">
             Jln. Cibiru Raya No 12, <br />
             Kabupaten Bandung 23213
